@@ -1,0 +1,40 @@
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.logoText{
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 600;
+}
+.logoTextLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.searchBtn{
+    border: none;
+    border-bottom: 1px solid rgb(149, 149, 149);
+    /* //outline: none; */
+}
+.icons-header i{
+    background-color: #ff4757;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+.icons-header i:hover{
+    background-color: #ff6b81;
+}
+.icons-header i:focus{
+    outline: none;
+}
